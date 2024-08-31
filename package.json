@@ -1,5 +1,5 @@
 {
-  "name": "sl",
+  "name": "strl",
   "version": "1.0.0",
   "description": "Gets the real length of a string",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iannl/sl.git"
+    "url": "git+https://github.com/iannl/strl.git"
   },
   "keywords": [
     "length"
@@ -16,7 +16,7 @@
   "author": "iannl",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/iannl/sl/issues"
+    "url": "https://github.com/iannl/strl/issues"
   },
-  "homepage": "https://github.com/iannl/sl#readme"
+  "homepage": "https://github.com/iannl/strl#readme"
 }

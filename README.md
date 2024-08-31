@@ -1,4 +1,4 @@
-# sl: String Length
+# strl: String Length
 Get the real length of a string
 
 ## Installation
