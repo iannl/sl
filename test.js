@@ -1,10 +1,12 @@
-const length = require('./')
+const length = require("./");
 
-console.log(length('\u001B[4mtest\u001B[0m'))
-// Output: 4
-
-console.log(length('😀'))
-// Output: 1
-
-console.log(length('\u001B[4m😀\u001B[0m'))
-// Output: 1
+if (
+  length("\u001B[4mtest\u001B[0m") == 4 &&
+  length("😀") == 1 &&
+  length("\u001B[4m😀\u001B[0m") == 1 &&
+  length("hello") == 5
+) {
+  console.log("All tests passed!");
+} else {
+  console.log("One or more tests failed.");
+}
